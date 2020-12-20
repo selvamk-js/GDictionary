@@ -7,6 +7,22 @@
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "*": ["src/*"],
+      "components/*": ["src/components/*"],
+      "containers/*": ["src/containers/*"],
+      "utils/*": ["src/utils/*"],
+      "assets/*": ["src/assets/*"],
+      "app/*": ["src/app/*"],
+      "constants": ["src/constants/*"],
+      "styles": ["src/styles/*"],
+      "hooks": ["src/hooks/*"],
+      "config": ["src/config/*"],
+      "services/*": ["src/services/*"],
+      "types/*": ["src/types/*"],
+      "helper/*": ["src/helper/*"]
+    }
   }
 }
